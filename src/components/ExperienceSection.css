@@ -1,0 +1,84 @@
+#Experience {
+    margin-top: 5%;
+    padding: 40px;
+  }
+  
+  .section_title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    /* text-align: center; */
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    margin-left: 2%;
+  }
+  
+  .experience_card {
+    background: #fff;
+    border-left: 5px solid #f9004d;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 50%;
+  }
+  
+  .experience_title {
+    /* font-size: 22px; */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .experience_company {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .experience_list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience_list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  .experience_row {
+    display: flex;
+    justify-content: center; /* Centers all cards horizontally */
+    align-items: flex-start; /* Align cards from the top */
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    gap: 20px; /* Adds spacing between cards */
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .experience_card {
+      margin: 20px 0;
+    }
+  
+    .experience_title {
+      font-size: 20px;
+    }
+  
+    /* .section_title {
+      font-size: 40px;
+    } */
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .experience_card {
+      padding: 15px;
+    }
+  
+    .experience_title {
+      font-size: 18px;
+    }
+  
+    .experience_list li {
+      font-size: 12px;
+    }
+  }
+  
