@@ -15,6 +15,7 @@ function Contact() {
                 <a
                   href="https://www.linkedin.com/in/aditya-prasad-0741441a7/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     className="icons_contacts"
@@ -27,6 +28,7 @@ function Contact() {
                 <a
                   href="https://github.com/adityaprasad03cvcmsd"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     className="icons_contacts"
