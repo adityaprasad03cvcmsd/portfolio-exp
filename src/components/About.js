@@ -12,7 +12,7 @@ export const About = () => {
         <div className="row">
           <div className="col__2">
             <FadeIn durationMs={3000}>
-              <img className="about_img" src={mypic} />
+              <img className="about_img" alt="" src={mypic} />
             </FadeIn>
           </div>
           <div className="col__2">

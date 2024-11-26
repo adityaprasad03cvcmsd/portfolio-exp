@@ -18,6 +18,7 @@ function Contact() {
                 >
                   <img
                     className="icons_contacts"
+                    alt=""
                     src="https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo.png"
                   />
                   linkedin
@@ -29,6 +30,7 @@ function Contact() {
                 >
                   <img
                     className="icons_contacts"
+                    alt=""
                     src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
                   />
                   github
