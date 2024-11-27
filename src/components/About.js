@@ -44,6 +44,7 @@ export const About = () => {
               <a
                 href="https://drive.google.com/file/d/18JQh4kfgKmvWUhTSHPOpuMznbt1nl0Jw/view?usp=sharing"
                 target={"_blank"}
+                rel="noreferrer"
               >
                 {" "}
                 <button className="about_btn"> Download Resume </button>
