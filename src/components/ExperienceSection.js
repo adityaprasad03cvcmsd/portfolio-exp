@@ -1,11 +1,10 @@
 import React from "react";
+import {
+  SlideInRight,
+  SlideInUp
+} from "react-animated-components";
 import "../App.css";
 import { Div } from "../elements/Div";
-import {
-  SlideInLeft,
-  SlideInRight,
-  SlideInUp,
-} from "react-animated-components";
 import "./ExperienceSection.css";
 
 const ExperienceSection = () => {

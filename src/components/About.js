@@ -1,9 +1,9 @@
 import React from "react";
-import "./About.css";
+import { FadeIn, SlideInLeft, SlideInUp } from "react-animated-components";
 import "../App.css";
 import { Div } from "../elements/Div";
 import mypic from "../images/portfolio.jpeg";
-import { FadeIn, SlideInLeft, SlideInUp } from "react-animated-components";
+import "./About.css";
 
 export const About = () => {
   return (

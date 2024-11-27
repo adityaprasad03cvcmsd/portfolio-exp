@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css";
 import "../App.css";
 import { Div } from "../elements/Div";
+import "./About.css";
 
 export const Skill = () => {
   const skills = [

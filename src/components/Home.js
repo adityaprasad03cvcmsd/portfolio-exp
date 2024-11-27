@@ -1,13 +1,7 @@
 import React, { useState } from "react";
-import "./Home.css";
 import logo from "../images/logo.png";
 import mobilePic from "../images/mobile.png";
-import backgroundImage from "../images/background.jpg"; // assuming you renamed the uploaded image
-import {
-  SlideInLeft,
-  SlideInRight,
-  RotateCcw,
-} from "react-animated-components";
+import "./Home.css";
 
 export const Home = () => {
   const [mobile, setMobile] = useState(false);

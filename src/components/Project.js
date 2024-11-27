@@ -1,10 +1,10 @@
-import "./Project.css";
 import "../App.css";
 import Project1 from "../images/faasos.png";
 import Project2 from "../images/healthmug.png";
-import Project3 from "../images/recipe.png";
 import Project4 from "../images/news.png";
+import Project3 from "../images/recipe.png";
 import Project5 from "../images/weather.png";
+import "./Project.css";
 
 function Project() {
   return (
@@ -39,6 +39,7 @@ function Project() {
                 <a
                   href="https://github.com/gopimudumal99/faasos-masai-clone"
                   target={"_blank"}
+                  rel="noreferrer"
                   className="project__btn"
                 >
                   View Details
@@ -46,6 +47,7 @@ function Project() {
                 <a
                   href="https://faasos-masai-clone.herokuapp.com/"
                   target={"_blank"}
+                  rel="noreferrer"
                   className="project__btn"
                 >
                   Deployed
@@ -77,6 +79,7 @@ function Project() {
                 <a
                   href="https://github.com/Akshay-Kumar2000/HealthMug-Clone"
                   target={"_blank"}
+                  rel="noreferrer"
                   className="project__btn"
                 >
                   View Details
@@ -84,6 +87,7 @@ function Project() {
                 <a
                   href="https://healthmug.vercel.app/"
                   target={"_blank"}
+                  rel="noreferrer"
                   className="project__btn"
                 >
                   Deployed
@@ -113,6 +117,7 @@ function Project() {
                   href="https://github.com/adityaprasad03cvcmsd/food-recipe-app.git"
                   className="project__btn"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   View Details
                 </a>
@@ -120,6 +125,7 @@ function Project() {
                   href="https://foodrecipemasaiadityaprasad.netlify.app/"
                   className="project__btn"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   Deployed
                 </a>
@@ -149,6 +155,7 @@ function Project() {
                   href="https://github.com/adityaprasad03cvcmsd/news-app"
                   className="project__btn"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   View Details
                 </a>
@@ -156,6 +163,7 @@ function Project() {
                   href="https://priceless-fermi-f19d8e.netlify.app/"
                   className="project__btn"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   Deployed
                 </a>
@@ -184,6 +192,7 @@ function Project() {
                   href="https://github.com/adityaprasad03cvcmsd/Weather-forceasting-app"
                   className="project__btn"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   View Details
                 </a>
@@ -191,6 +200,7 @@ function Project() {
                   href="https://weathermasai.netlify.app/"
                   className="project__btn"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   Deployed
                 </a>
